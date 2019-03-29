@@ -1,9 +1,7 @@
 ---
 
-  - name: Apply the RocketChat.Server role to all chat_servers
+  - name: Apply the RocketChat.Ansible
     hosts: all
-    become: true
-    become_method: sudo
 
     roles:
       - Rocket.Chat.Ansible
